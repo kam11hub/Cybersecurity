@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Generate a high amount of failed SSH login attempts and verify that Kibana is picking up this a$
+
+
+while :
+do
+        $counter=
+        ssh azureuser@10.0.0.5
+        ssh azureuser@10.0.0.6
+        ssh azureuser@10.0.0.7
+done
+
+
+
+
+
+
+
+
+

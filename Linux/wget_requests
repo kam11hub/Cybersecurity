@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#generate many web requests
+
+
+while :
+do
+        $counter=
+        wget azureuser@10.0.0.5
+        wget azureuser@10.0.0.6
+        wget azureuser@10.0.0.7
+        rm -r index.html.*
+        ls >> /dev/null
+done
+
+
+
